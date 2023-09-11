@@ -1,0 +1,56 @@
+*{
+    font-family: "kanit";
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    padding: 1%;
+    background-color: rgb(89, 89, 199);
+}
+
+li{
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+#slackUserName{   
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+#currentDayofTheWeek{
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#currentUTCTime{
+    font-size: 1.3REM;
+    font-weight: 300;
+    text-align: center;
+}
+
+#slackDisplayImage{
+   height: 6.9rem;
+   width: 6.9rem;
+   border-radius: 100%;
+   margin-top: 40px;
+}
+
+#nam{
+    text-align: center;
+    margin-top: 6rem;
+}
+
+#myTrack{
+    font-size: 1.6rem;
+}
